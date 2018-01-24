@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "ExampleViewController.h"
 #import "SKColTypeOneChart.h"
+#import "SKColTypeTwoChart.h"
 #define SCREEN_WIDTH   [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
@@ -57,25 +58,31 @@
 {
 	
 	NSInteger idx = btn.tag - 666;
-	
+	ExampleViewController *exVC = [[ExampleViewController alloc]init];
+	exVC.view.backgroundColor = [UIColor whiteColor];
+	[self presentViewController:exVC animated:YES completion:nil];
 	switch (idx) {
   case 0:
     {
 		// Sample1
-		ExampleViewController *exVC = [[ExampleViewController alloc]init];
-		exVC.view.backgroundColor = [UIColor whiteColor];
+
 		SKColTypeOneChart *one = [[SKColTypeOneChart alloc]init];
 		one.backgroundColor =[UIColor whiteColor];
 		one.values = @[@134,@41,@65,@0,@98,@134,@41,@65,@12,@98];
 		one.yTitleArr = @[@"李东",@"王五",@"张三",@"李四",@"黄三",@"李东",@"王五",@"张三",@"李四",@"黄三"];
 		one.frame = CGRectMake(0, 200, SCREEN_WIDTH, 300);
 		[exVC.view addSubview:one];
-		[self presentViewController:exVC animated:YES completion:nil];
 		
 	}
     break;
     case 1:{
 		// Sample2
+		SKColTypeTwoChart *two = [[SKColTypeTwoChart alloc]init];
+		two.frame = CGRectMake(0, 200, SCREEN_WIDTH, 300);
+		two.backgroundColor = [UIColor whiteColor];
+		two.titleArray = @[@"李东",@"王五",@"张三",@"李四",@"黄三",@"李东",@"王五"];
+		two.firstValArr = @[@15,@9,@15,@25,@19,@34,@52,@16,@9,@25,@125,@9,@84,@42];
+		[exVC.view addSubview:two];
 		
 	}
 	break;
