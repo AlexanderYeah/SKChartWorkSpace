@@ -7,4 +7,9 @@
 
 2 -- 1.23 柱状图类型  	SKColTypeTwoChart.h    
 
-<img src="https://github.com/AlexanderYeah/SKChartWorkSpace/blob/master/SKChartWorkSpace/2.png" height="300" width="375" />  
+<img src="https://github.com/AlexanderYeah/SKChartWorkSpace/blob/master/SKChartWorkSpace/2.png" height="300" width="375" />    
+
+3 -- 1.25 折线图  	SKLineTypeOneChart.h  
+
+<img src="https://github.com/AlexanderYeah/SKChartWorkSpace/blob/master/SKChartWorkSpace/3.png  " height="300" width="375" />    
+
