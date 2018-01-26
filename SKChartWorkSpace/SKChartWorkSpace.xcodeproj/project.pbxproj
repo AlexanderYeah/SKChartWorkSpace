@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0366C0962019B8A100AFA7B9 /* SKLineTypeOneChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0366C0952019B8A100AFA7B9 /* SKLineTypeOneChart.m */; };
+		0366FD9420182A44000B88E6 /* SKColTypeTwoChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0366FD9320182A44000B88E6 /* SKColTypeTwoChart.m */; };
 		1164555A2015DF6600B968FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 116455592015DF6600B968FB /* AppDelegate.m */; };
 		1164555D2015DF6600B968FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1164555C2015DF6600B968FB /* ViewController.m */; };
-		116455602015DF6600B968FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1164555E2015DF6600B968FB /* Main.storyboard */; };
 		116455622015DF6600B968FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116455612015DF6600B968FB /* Assets.xcassets */; };
-		116455652015DF6600B968FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116455632015DF6600B968FB /* LaunchScreen.storyboard */; };
 		116455682015DF6600B968FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 116455672015DF6600B968FB /* main.m */; };
 		116455722015DF6600B968FB /* SKChartWorkSpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116455712015DF6600B968FB /* SKChartWorkSpaceTests.m */; };
 		1164557D2015DF6600B968FB /* SKChartWorkSpaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1164557C2015DF6600B968FB /* SKChartWorkSpaceUITests.m */; };
@@ -37,14 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0366C0942019B8A100AFA7B9 /* SKLineTypeOneChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLineTypeOneChart.h; sourceTree = "<group>"; };
+		0366C0952019B8A100AFA7B9 /* SKLineTypeOneChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLineTypeOneChart.m; sourceTree = "<group>"; };
+		0366FD9220182A44000B88E6 /* SKColTypeTwoChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKColTypeTwoChart.h; sourceTree = "<group>"; };
+		0366FD9320182A44000B88E6 /* SKColTypeTwoChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKColTypeTwoChart.m; sourceTree = "<group>"; };
 		116455552015DF6600B968FB /* SKChartWorkSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKChartWorkSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116455582015DF6600B968FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		116455592015DF6600B968FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1164555B2015DF6600B968FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1164555C2015DF6600B968FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1164555F2015DF6600B968FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		116455612015DF6600B968FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		116455642015DF6600B968FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116455662015DF6600B968FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		116455672015DF6600B968FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1164556D2015DF6600B968FB /* SKChartWorkSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKChartWorkSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,9 +116,7 @@
 				1164555C2015DF6600B968FB /* ViewController.m */,
 				1164558B2015E0AF00B968FB /* ExampleViewController.h */,
 				1164558C2015E0AF00B968FB /* ExampleViewController.m */,
-				1164555E2015DF6600B968FB /* Main.storyboard */,
 				116455612015DF6600B968FB /* Assets.xcassets */,
-				116455632015DF6600B968FB /* LaunchScreen.storyboard */,
 				116455662015DF6600B968FB /* Info.plist */,
 				116455672015DF6600B968FB /* main.m */,
 			);
@@ -146,6 +146,10 @@
 			children = (
 				1164558F2015E0DD00B968FB /* SKColTypeOneChart.h */,
 				1164558E2015E0DD00B968FB /* SKColTypeOneChart.m */,
+				0366FD9220182A44000B88E6 /* SKColTypeTwoChart.h */,
+				0366FD9320182A44000B88E6 /* SKColTypeTwoChart.m */,
+				0366C0942019B8A100AFA7B9 /* SKLineTypeOneChart.h */,
+				0366C0952019B8A100AFA7B9 /* SKLineTypeOneChart.m */,
 			);
 			path = SKChartView;
 			sourceTree = "<group>";
@@ -256,9 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				116455652015DF6600B968FB /* LaunchScreen.storyboard in Resources */,
 				116455622015DF6600B968FB /* Assets.xcassets in Resources */,
-				116455602015DF6600B968FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +287,8 @@
 			files = (
 				1164555D2015DF6600B968FB /* ViewController.m in Sources */,
 				1164558D2015E0AF00B968FB /* ExampleViewController.m in Sources */,
+				0366FD9420182A44000B88E6 /* SKColTypeTwoChart.m in Sources */,
+				0366C0962019B8A100AFA7B9 /* SKLineTypeOneChart.m in Sources */,
 				116455902015E0DD00B968FB /* SKColTypeOneChart.m in Sources */,
 				116455682015DF6600B968FB /* main.m in Sources */,
 				1164555A2015DF6600B968FB /* AppDelegate.m in Sources */,
@@ -321,25 +325,6 @@
 			targetProxy = 116455792015DF6600B968FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1164555E2015DF6600B968FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1164555F2015DF6600B968FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		116455632015DF6600B968FB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				116455642015DF6600B968FB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1164557F2015DF6600B968FB /* Debug */ = {
@@ -453,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DC4XMJV5E;
 				INFOPLIST_FILE = SKChartWorkSpace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKChartWorkSpace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -467,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DC4XMJV5E;
 				INFOPLIST_FILE = SKChartWorkSpace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKChartWorkSpace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
