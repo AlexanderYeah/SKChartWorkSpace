@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032DE914204532DA004AB5BA /* SKPieTypeOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DE913204532DA004AB5BA /* SKPieTypeOneView.m */; };
 		0366C0962019B8A100AFA7B9 /* SKLineTypeOneChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0366C0952019B8A100AFA7B9 /* SKLineTypeOneChart.m */; };
 		0366FD9420182A44000B88E6 /* SKColTypeTwoChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0366FD9320182A44000B88E6 /* SKColTypeTwoChart.m */; };
 		1164555A2015DF6600B968FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 116455592015DF6600B968FB /* AppDelegate.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032DE912204532DA004AB5BA /* SKPieTypeOneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPieTypeOneView.h; sourceTree = "<group>"; };
+		032DE913204532DA004AB5BA /* SKPieTypeOneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPieTypeOneView.m; sourceTree = "<group>"; };
 		0366C0942019B8A100AFA7B9 /* SKLineTypeOneChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLineTypeOneChart.h; sourceTree = "<group>"; };
 		0366C0952019B8A100AFA7B9 /* SKLineTypeOneChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLineTypeOneChart.m; sourceTree = "<group>"; };
 		0366FD9220182A44000B88E6 /* SKColTypeTwoChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKColTypeTwoChart.h; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				0366FD9320182A44000B88E6 /* SKColTypeTwoChart.m */,
 				0366C0942019B8A100AFA7B9 /* SKLineTypeOneChart.h */,
 				0366C0952019B8A100AFA7B9 /* SKLineTypeOneChart.m */,
+				032DE912204532DA004AB5BA /* SKPieTypeOneView.h */,
+				032DE913204532DA004AB5BA /* SKPieTypeOneView.m */,
 			);
 			path = SKChartView;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032DE914204532DA004AB5BA /* SKPieTypeOneView.m in Sources */,
 				1164555D2015DF6600B968FB /* ViewController.m in Sources */,
 				1164558D2015E0AF00B968FB /* ExampleViewController.m in Sources */,
 				0366FD9420182A44000B88E6 /* SKColTypeTwoChart.m in Sources */,
@@ -436,7 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				DEVELOPMENT_TEAM = 35T94Q6EVP;
 				INFOPLIST_FILE = SKChartWorkSpace/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -451,7 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				DEVELOPMENT_TEAM = 35T94Q6EVP;
 				INFOPLIST_FILE = SKChartWorkSpace/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

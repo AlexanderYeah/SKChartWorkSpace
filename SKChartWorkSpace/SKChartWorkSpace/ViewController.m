@@ -11,6 +11,7 @@
 #import "SKColTypeOneChart.h"
 #import "SKColTypeTwoChart.h"
 #import "SKLineTypeOneChart.h"
+#import "SKPieTypeOneView.h"
 #define SCREEN_WIDTH   [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
@@ -25,7 +26,7 @@
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
-		NSArray *menuArr = @[@"水平柱状",@"柱状图",@"折线图",@"Pulse",@"Shake",@"Swing",@"Snap",@"Bounce2",@"Expand",@"Hinge",@"Drop"];
+		NSArray *menuArr = @[@"水平柱状",@"柱状图",@"折线图",@"饼状图",@"Shake",@"Swing",@"Snap",@"Bounce2",@"Expand",@"Hinge",@"Drop"];
 	CGFloat btn_padding = 30;
 	CGFloat btn_w = (SCREEN_WIDTH - 5 * btn_padding)/4;
 	CGFloat btn_h = 35;
@@ -98,7 +99,11 @@
 	}
 	break;
 	case 3:{
+		SKPieTypeOneView *one = [[SKPieTypeOneView alloc]initWithFrame:CGRectMake(100, 200, 200, 200)];
+		[one setSourceData:@[@5.5,@8,@2,@9,@4] withColors:@[[UIColor greenColor],[UIColor redColor]]];
 		
+		[one stroke];
+		[exVC.view addSubview:one];
 	
 	}
 	break;
