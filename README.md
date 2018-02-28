@@ -13,3 +13,6 @@
 
 <img src="https://github.com/AlexanderYeah/SKChartWorkSpace/blob/master/SKChartWorkSpace/3.png  " height="300" width="375" />    
 
+4 -- 2.28 饼状图    SKPieTypeOneView.h
+
+![11](https://github.com/AlexanderYeah/SKChartWorkSpace/blob/master/SKChartWorkSpace/4.png)
